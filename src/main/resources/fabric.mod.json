@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "spectatorhud",
+  "version": "${version}",
+  "name": "Spectator HUD",
+  "description": "A Fabric mod that shows health bar, hotbar, and inventory of spectated players in spectator mode for Minecraft 1.18.2",
+  "authors": [
+    "SpectatorHUD"
+  ],
+  "contact": {
+    "homepage": "https://github.com/spectatorhud",
+    "sources": "https://github.com/spectatorhud"
+  },
+  "license": "MIT",
+  "icon": "assets/spectatorhud/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.spectatorhud.client.SpectatorHUDClient"
+    ]
+  },
+  "mixins": [
+    "spectatorhud.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.18.2",
+    "java": ">=17"
+  }
+}

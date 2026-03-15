@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.spectatorhud.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "InGameHudMixin",
+    "GuiInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
